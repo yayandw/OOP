@@ -18,16 +18,16 @@ class Calculator {
         int getY() const {
             return y;
         }
-        int addition() {
+        int addition() const {
             return x + y;
         }
-        int subtraction() {
+        int subtraction() const {
             return x - y;
         }
-        int multiplication() {
+        int multiplication() const {
             return x * y;
         }
-        int division() {
+        int division() const {
             return x / y;
         }
 };

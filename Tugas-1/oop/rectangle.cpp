@@ -5,6 +5,7 @@ class Rectangle {
     int width;
     int length;
     public:
+        Rectangle() : width(0), length(0) {}
         void setWidth(int value) {
             width = value;
         }

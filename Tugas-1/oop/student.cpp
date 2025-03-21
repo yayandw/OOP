@@ -6,6 +6,7 @@ class Student {
     string name;
     string grade;
     public:
+    Student() : id(0), name(""), grade("") {}
         void setId(int value) {
             id = value;
         }

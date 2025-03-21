@@ -4,6 +4,7 @@ using namespace std;
 class Counter {
     int increment;
     public:
+        Counter() : increment(0) {}
         int getCurrent() const {
             return increment;
         }
